@@ -1,0 +1,64 @@
+*{
+    font-family:montserrat;
+}
+body{
+    background-color: aliceblue;
+}
+.section_padding{
+    padding: 100 0;
+}
+.carousel-item{
+    height: 100vh;
+    min-height: 300px;
+}
+.carousel-caption{
+    bottom: 220px;
+    z-index: 2;
+}
+.carousel-caption h5 {
+    font-size: 45px;
+    text-transform: uppercase;
+    margin-top: 25px;
+   letter-spacing: 2px;
+}
+.carousel-caption p {
+  width:100%;
+  margin:auto;
+  font-size: 18px;
+  line-height: 1.9;
+}
+.carousel-inner::before{
+content:'';
+position: absolute;
+width: 100%;
+height: 100%;
+top:0;
+left:0;
+z-index: 1;
+background-color: rgba(0, 0, 0, 0.5);
+}
+.carousel-item img{
+    width:800px;
+    height: 800px;
+}
+nav{
+    /* background-color:rgba(33, 10, 10, 0.694) !important; */
+  
+}
+.nav-link{
+  color: blue;
+}
+#about{
+    margin-top: 50px;
+}
+
+#service{
+    margin-top: 40px;
+}
+.ser{
+    gap:40px;
+    
+}
+#service{
+    height: 600px;
+}
